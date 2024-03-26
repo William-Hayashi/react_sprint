@@ -1,0 +1,99 @@
+body {
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    color: white; 
+    border: none; 
+    align-items: center;
+    padding:0px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    margin-right: 1300px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+   }
+   
+   .menu a {
+    text-decoration: none;
+    color: #032E61;
+   }
+
+   .icon-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+   .icon-container ul{
+    filter: invert(1) sepia(1) saturate(5) hue-rotate(0deg);
+    transform: translateX(-850px); 
+    display: flex; 
+    gap: 20px; 
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.icon-container ul li {
+    margin-right: 60px; 
+}
+
+.salesforce {
+    height: auto; 
+    width: 300px;
+}
+
+.meuBotao {
+    transform: translateX(-800px); 
+    padding: 10px 20px; 
+    background-color: green; 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    white-space: nowrap;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.meuBotao:hover {
+    background-color: darkgreen; 
+}
+
+
+
+@media (max-width: 1024px) {
+    .menu {
+        margin-right: 50px; 
+    }
+
+    .icon-container ul {
+        transform: translateX(-500px); 
+    }
+
+    .icon-container ul li {
+        margin-right: 30px; 
+    }
+}
+
+/* Estilos para Mobile */
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .icon-container ul {
+        display: none;
+    }
+
+    .icon-container ul li {
+        margin-right: 10px; 
+    }
+
+}

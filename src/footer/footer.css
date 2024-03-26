@@ -1,0 +1,92 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #032E61;
+    padding: 30px;
+    width: 100%;
+    margin: 0 auto;
+    height: 150px;
+
+}
+
+
+    .logo-salesforce {
+        position: relative;
+        top: -40px; 
+        margin-right: 20px; 
+        width: 200px; 
+        height: auto; 
+        margin-left: 50px;
+  }
+
+.copyright-text {
+    font-style: italic;
+    color: #ffffff;
+    display: flex;
+    width: 100%;
+    margin-top: 90px;
+  }
+
+.social-icon-link a {
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 90px;
+    margin-right: 10px; 
+    transition: color 0.3s ease;
+    display: inline-block;
+    
+    
+}
+
+.social-icon-link a:first-child {
+    margin-left: 0; 
+}
+
+/* Estilos para tablets */
+@media (max-width: 1024px) {
+    .container-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-salesforce {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .copyright-text {
+        margin-top: 30px;
+    }
+
+    .social-icon-link a {
+        margin-left: 30px;
+    }
+}
+
+/* Estilos para celulares */
+@media (max-width: 768px) {
+    .container-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-salesforce {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .copyright-text {
+        margin-top: 30px;
+    }
+
+    .social-icon-link a {
+        margin-left: 30px;
+    }
+}
+
