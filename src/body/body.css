@@ -1,0 +1,44 @@
+.body-container {
+    margin-left: 90px; 
+    font-family: 'Inter', sans-serif; 
+    max-width: 40%;
+    
+    }
+
+    .title{
+        color: #032E61;
+    }
+   
+   .body-container ul {
+    font-size: 16px;
+    line-height: 3.5; 
+   }
+   
+   .dashboard img {
+    display: block;
+    margin-left: 100px
+   }
+
+  
+   @media (max-width: 768px) {
+   .body-container {
+   margin-left: 20px; 
+   max-width: 90%; 
+   }
+   
+   .dashboard img {
+   margin-left: 100px;
+   }
+   
+   /* Estilos para dispositivos móveis */
+   @media (max-width: 480px) {
+   .body-container {
+   margin-left: 10px; 
+   max-width: 100%; /
+   }
+   
+   .dashboard img {
+   margin-left: 10px; /
+        }
+    }
+}
