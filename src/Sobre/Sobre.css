@@ -10,6 +10,29 @@
     margin-bottom: 10px;
    }
    
-   .container img:last-child {
-    margin-bottom: 0;
+
+
+   .Decor{
+    width: 100%;
    }
+   .imagens-container img {
+    display: block; 
+    width: 35%; 
+    height: auto; 
+    margin-bottom: 20px; 
+    
+}
+
+.Title{
+    color: #032E61;
+    margin-left: 80px;  
+}
+.Will{
+    margin-left: 1000px;
+}
+.Deycky{
+    margin-left: 190px;
+}
+.Ale{
+    margin-left: 90px;
+}

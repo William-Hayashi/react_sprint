@@ -1,17 +1,20 @@
 import Header from '../header/header.tsx';
 import Footer from '../footer/footer.tsx'; 
 import React from 'react';
-
+import './Sobre.css'
 const Sobre: React.FC = () => {
  return (
     <div>
         
       <Header/>
-      <h1>Membros dos Grupo</h1>
-      <img src="/src/logos/foto1.png" alt="Foto1" />
-      <img src="/src/logos/foto will" alt="Foto Will" />
-      <img src="/src/logos/fotoAle" alt="Foto Alexandre" />
-      <img src="/src/logos/decor1" alt="Foto Salesforce" />
+      <div className='imagens-container'>
+      <h1 className='Title'>Membros dos Grupo</h1>
+      <img src="/src/logos/foto1.jpg" alt="Foto1" className='Deycky' />
+      <img src="/src/logos/foto will.jpg" alt="Foto Will" className='Will' />
+      <img src="/src/logos/fotoAle.jpg" alt="Foto Alexandre" className='Ale' />
+      </div>
+      
+      <img src="/src/logos/decor1.webp" alt="Foto Salesforce" className='Decor' />
       
       <Footer/> 
     </div>
