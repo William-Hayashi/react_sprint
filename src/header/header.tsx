@@ -2,6 +2,7 @@ import './header.css';
 import { IoAccessibilitySharp } from "react-icons/io5";
 import { CgSearch } from "react-icons/cg";
 import { CgUser } from "react-icons/cg";
+import { Link } from 'react-router-dom';
 
 const Header: React.FC = () => {
  return (
@@ -11,12 +12,14 @@ const Header: React.FC = () => {
       </div>
 
       <div className="menu">
-        <b></b>
+  
         <a href="#">Produtos</a>
         <a href="#">Indústrias</a>
         <a href="#">Aprendizado</a>
         <a href="#">Suporte</a>
-        <a href="#">Nós</a>
+        <Link to="/sobre">Nós</Link>
+
+        
       </div>
 
       <div className="icon-container">

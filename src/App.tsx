@@ -1,20 +1,20 @@
-import Header from '../src/header/header';
-import Body from './body/body';
-import Formulario from './formulario/formulario';
-import Footer from './footer/footer';
-import './App.css'; 
 
-function App() {
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+import Sobre from './Sobre/Sobre'; 
+import Home from './home.tsx'; 
+
+const App: React.FC = () => {
     return (
-        <>
-            <Header />
-            <div className="container">
-                <Body />
-                <Formulario />
-            </div>
-            <Footer />
-        </>
+        <Router>
+            
+            <Routes>
+                <Route path="/sobre" element={<Sobre />} />
+                <Route path="/" element={<Home />} /> 
+            </Routes>
+        </Router>
     );
-}
+};
 
 export default App;
