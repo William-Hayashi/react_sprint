@@ -1,0 +1,36 @@
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .container > * {
+        flex: 1; 
+    }
+}
+
+/* Estilos para tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        flex-direction: row;
+    }
+    .container > * {
+        flex: 1; 
+    }
+}
+
+/* Estilos para desktops */
+@media (min-width: 1025px) {
+    .container {
+        flex-direction: row;
+    }
+    .container > * {
+        flex: 1; 
+    }
+}
