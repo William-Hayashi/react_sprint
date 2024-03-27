@@ -26,7 +26,7 @@ const Formulario = () => {
     
         alert('Cadastro concluído!');
 
-        
+        // Limpa os campos do formulário
         setNome('');
         setEmail('');
         setCargo('');
