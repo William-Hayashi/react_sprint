@@ -3,6 +3,7 @@ import Body from './body/body';
 import Formulario from './formulario/formulario';
 import Footer from './footer/footer';
 import './home.css'; 
+import ClickTracker from './coleta';
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
                 <Formulario />
             </div>
             <Footer />
+            <ClickTracker />
         </>
     );
 }
