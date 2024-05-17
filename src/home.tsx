@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Header from '../src/header/header';
 import Body from './body/body';
 import Formulario from './formulario/formulario';
-import Footer from './footer/footer';
 import './home.css';
 
 function App() {
@@ -20,7 +19,7 @@ function App() {
         <Body />
         <Formulario />
       </div>
-      <Footer />
+      
     </>
   );
 }
