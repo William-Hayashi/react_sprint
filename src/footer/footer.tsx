@@ -5,7 +5,7 @@ function Footer() {
         <>
             <div className="container-footer">
                 <div className="copyright-text">
-                    <img src="/src/logos/logoSalesforce.png" alt="Logo" className="logo-salesforce" />
+                    <img src="../src/logos/logoSalesforce.png" alt="Logo" className="logo-salesforce" />
                     <span>&copy; Copyright 2022 KeepForce, Inc. All rights reserved</span>
                 </div>
 

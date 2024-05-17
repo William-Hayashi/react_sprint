@@ -19,7 +19,7 @@ const Header: React.FC<HeaderProps> = ({ onClick }) => {
   return (
     <header className={`header ${isIconClicked? 'clicked-icon' : ''}`}>
       <div className="logo-container">
-        <img src="/src/logos/logoSalesforce.png" alt="Logo" className="salesforce" />
+        <img src="../src/logos/logoSalesforce.png" alt="Logo" className="salesforce" />
       </div>
 
       <div className="menu">
