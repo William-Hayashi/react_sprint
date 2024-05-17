@@ -32,7 +32,6 @@ body {
 }
 
    .icon-container ul{
-    filter: invert(1) sepia(1) saturate(5) hue-rotate(0deg);
     transform: translateX(-850px); 
     display: flex; 
     gap: 20px; 
@@ -66,7 +65,9 @@ body {
     background-color: darkgreen; 
 }
 
-
+.contraste {
+    background-color: transparent!important; /* Ou qualquer outra cor que seja adequada */
+  }
 
 @media (max-width: 1024px) {
     .menu {

@@ -34,3 +34,14 @@
         flex: 1; 
     }
 }
+
+/* home.css */
+.container {
+  background-color: #ffffff; /* Fundo branco padrão */
+  color: #000000; /* Texto preto padrão */
+}
+
+.contrast-mode.container {
+  background-color: #000000; /* Fundo preto para contraste */
+  color: #ffffff; /* Texto branco para contraste */
+}

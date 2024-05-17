@@ -20,6 +20,7 @@ const Body: React.FC = () => {
       </ul>  
       <p><b>Dúvidas?</b> Entre em contato e fale com um de nossos especialistas: 0800 891 1887.</p>  
         <img src="/src/logos/dashboard.png" alt="Foto de um dashboard" />
+        
       </div>
     </>  
  );
