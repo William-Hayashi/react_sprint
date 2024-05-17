@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Header from '../src/header/header';
 import Body from './body/body';
 import Formulario from './formulario/formulario';
